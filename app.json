@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "DinnerMatch",
+    "slug": "dinnermatch",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "fonts": [],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dinnermatch.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dinnermatch.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-font"],
+    "sdkVersion": "51.0.0"
+  }
+}
