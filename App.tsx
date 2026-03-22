@@ -14,6 +14,7 @@ export type RootStackParamList = {
   Home: undefined;
   Onboarding: undefined;
   CoupleLink: undefined;
+  Swipe: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();

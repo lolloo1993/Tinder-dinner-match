@@ -11,9 +11,9 @@ export interface Recipe {
   id: string;
   week_id: string;
   title: string;
-  description: string;
-  ingredients: Record<string, unknown>;
-  steps: Record<string, unknown>;
+  description: string | null;
+  ingredients: unknown[];
+  steps: unknown[];
   tags: string[];
   image_url: string | null;
   created_at: string;
@@ -42,4 +42,6 @@ export interface Match {
   recipe_id: string;
   week_id: string;
   created_at: string;
+  // Present when fetched with .select('*, recipes(*)')
+  recipes?: Recipe;
 }
